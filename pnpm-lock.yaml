@@ -9,6 +9,7 @@ specifiers:
   babel-eslint: ^10.1.0
   broccoli-asset-rev: ^3.0.0
   ember-auto-import: ^2.4.2
+  ember-classic-decorator: 3.0.0
   ember-cli: ~4.7.0
   ember-cli-app-version: ^5.0.0
   ember-cli-babel: ^7.26.11
@@ -25,7 +26,6 @@ specifiers:
   ember-resolver: ^8.0.3
   ember-source: ~4.7.0
   ember-template-lint: ^4.14.0
-  ember-user-activity: github:elwayman02/ember-user-activity
   ember-welcome-page: ^6.2.0
   eslint: ^7.32.0
   eslint-config-prettier: ^8.5.0
@@ -49,6 +49,7 @@ devDependencies:
   babel-eslint: 10.1.0_eslint@7.32.0
   broccoli-asset-rev: 3.0.0
   ember-auto-import: 2.4.2_webpack@5.74.0
+  ember-classic-decorator: 3.0.0
   ember-cli: 4.7.0
   ember-cli-app-version: 5.0.0
   ember-cli-babel: 7.26.11
@@ -65,7 +66,6 @@ devDependencies:
   ember-resolver: 8.0.3
   ember-source: 4.7.0_webpack@5.74.0
   ember-template-lint: 4.14.0_ember-cli-htmlbars@6.1.1
-  ember-user-activity: github.com/elwayman02/ember-user-activity/3148ae63e8f9278d96bda48251e1708f8ebffc82
   ember-welcome-page: 6.2.0
   eslint: 7.32.0
   eslint-config-prettier: 8.5.0_eslint@7.32.0
@@ -12174,16 +12174,4 @@ packages:
   /yocto-queue/1.0.0:
     resolution: {integrity: sha512-9bnSc/HEW2uRy67wc+T8UwauLuPJVn28jb+GtJY16iiKWyvmYJRXVT4UamsAEGQfPohgr2q4Tq0sQbQlxTfi1g==}
     engines: {node: '>=12.20'}
-    dev: true
-
-  github.com/elwayman02/ember-user-activity/3148ae63e8f9278d96bda48251e1708f8ebffc82:
-    resolution: {tarball: https://codeload.github.com/elwayman02/ember-user-activity/tar.gz/3148ae63e8f9278d96bda48251e1708f8ebffc82}
-    name: ember-user-activity
-    version: 6.0.0
-    engines: {node: '>= 12'}
-    dependencies:
-      ember-classic-decorator: 3.0.0
-      ember-cli-babel: 7.26.11
-    transitivePeerDependencies:
-      - supports-color
     dev: true
