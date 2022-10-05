@@ -60,6 +60,16 @@
     "qunit-dom": "^2.0.0",
     "webpack": "^5.74.0"
   },
+  "pnpm": {
+    "peerDependencyRules": {
+      "allowAny": [
+        "eslint"
+      ],
+      "ignoreMissing": [
+        "@babel/core"
+      ]
+    }
+  },
   "engines": {
     "node": "14.* || >= 16"
   },
